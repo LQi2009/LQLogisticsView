@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		914C9EAB1D388F1C00F5CFF2 /* LZLogisticModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 914C9EAA1D388F1C00F5CFF2 /* LZLogisticModel.m */; };
+		9193570E1D37737D00CE2347 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193570D1D37737D00CE2347 /* main.m */; };
+		919357111D37737D00CE2347 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 919357101D37737D00CE2347 /* AppDelegate.m */; };
+		919357141D37737D00CE2347 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919357131D37737D00CE2347 /* ViewController.m */; };
+		919357171D37737D00CE2347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919357151D37737D00CE2347 /* Main.storyboard */; };
+		9193571A1D37737D00CE2347 /* LZLogisticsView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 919357181D37737D00CE2347 /* LZLogisticsView.xcdatamodeld */; };
+		9193571C1D37737D00CE2347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9193571B1D37737D00CE2347 /* Assets.xcassets */; };
+		9193571F1D37737D00CE2347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9193571D1D37737D00CE2347 /* LaunchScreen.storyboard */; };
+		9193572A1D37737D00CE2347 /* LZLogisticsViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 919357291D37737D00CE2347 /* LZLogisticsViewTests.m */; };
+		919357351D37737D00CE2347 /* LZLogisticsViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 919357341D37737D00CE2347 /* LZLogisticsViewUITests.m */; };
+		919357451D3773C500CE2347 /* LZLogisticsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 919357441D3773C500CE2347 /* LZLogisticsView.m */; };
+		919357601D37746C00CE2347 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 919357481D37746C00CE2347 /* MASCompositeConstraint.m */; };
+		919357611D37746C00CE2347 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193574B1D37746C00CE2347 /* MASConstraint.m */; };
+		919357621D37746C00CE2347 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193574D1D37746C00CE2347 /* MASConstraintMaker.m */; };
+		919357631D37746C00CE2347 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193574F1D37746C00CE2347 /* MASLayoutConstraint.m */; };
+		919357641D37746C00CE2347 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 919357531D37746C00CE2347 /* MASViewAttribute.m */; };
+		919357651D37746C00CE2347 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 919357551D37746C00CE2347 /* MASViewConstraint.m */; };
+		919357661D37746C00CE2347 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 919357571D37746C00CE2347 /* NSArray+MASAdditions.m */; };
+		919357671D37746C00CE2347 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193575A1D37746C00CE2347 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		919357681D37746C00CE2347 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193575C1D37746C00CE2347 /* View+MASAdditions.m */; };
+		919357691D37746C00CE2347 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193575F1D37746C00CE2347 /* ViewController+MASAdditions.m */; };
+		9193576D1D3775BF00CE2347 /* LZLogisticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193576C1D3775BF00CE2347 /* LZLogisticCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		919357261D37737D00CE2347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 919357011D37737D00CE2347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919357081D37737D00CE2347;
+			remoteInfo = LZLogisticsView;
+		};
+		919357311D37737D00CE2347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 919357011D37737D00CE2347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919357081D37737D00CE2347;
+			remoteInfo = LZLogisticsView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		914C9EA91D388F1C00F5CFF2 /* LZLogisticModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZLogisticModel.h; sourceTree = "<group>"; };
+		914C9EAA1D388F1C00F5CFF2 /* LZLogisticModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZLogisticModel.m; sourceTree = "<group>"; };
+		919357091D37737D00CE2347 /* LZLogisticsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZLogisticsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9193570D1D37737D00CE2347 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9193570F1D37737D00CE2347 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		919357101D37737D00CE2347 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		919357121D37737D00CE2347 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		919357131D37737D00CE2347 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		919357161D37737D00CE2347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		919357191D37737D00CE2347 /* LZLogisticsView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LZLogisticsView.xcdatamodel; sourceTree = "<group>"; };
+		9193571B1D37737D00CE2347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9193571E1D37737D00CE2347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		919357201D37737D00CE2347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919357251D37737D00CE2347 /* LZLogisticsViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZLogisticsViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		919357291D37737D00CE2347 /* LZLogisticsViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZLogisticsViewTests.m; sourceTree = "<group>"; };
+		9193572B1D37737D00CE2347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919357301D37737D00CE2347 /* LZLogisticsViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZLogisticsViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		919357341D37737D00CE2347 /* LZLogisticsViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZLogisticsViewUITests.m; sourceTree = "<group>"; };
+		919357361D37737D00CE2347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919357431D3773C500CE2347 /* LZLogisticsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZLogisticsView.h; sourceTree = "<group>"; };
+		919357441D3773C500CE2347 /* LZLogisticsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZLogisticsView.m; sourceTree = "<group>"; };
+		919357471D37746C00CE2347 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		919357481D37746C00CE2347 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		919357491D37746C00CE2347 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		9193574A1D37746C00CE2347 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		9193574B1D37746C00CE2347 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		9193574C1D37746C00CE2347 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		9193574D1D37746C00CE2347 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		9193574E1D37746C00CE2347 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		9193574F1D37746C00CE2347 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		919357501D37746C00CE2347 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		919357511D37746C00CE2347 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		919357521D37746C00CE2347 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		919357531D37746C00CE2347 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		919357541D37746C00CE2347 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		919357551D37746C00CE2347 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		919357561D37746C00CE2347 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		919357571D37746C00CE2347 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		919357581D37746C00CE2347 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		919357591D37746C00CE2347 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		9193575A1D37746C00CE2347 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		9193575B1D37746C00CE2347 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		9193575C1D37746C00CE2347 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		9193575D1D37746C00CE2347 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9193575E1D37746C00CE2347 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		9193575F1D37746C00CE2347 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		9193576A1D37748700CE2347 /* LZConfigFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZConfigFile.h; sourceTree = "<group>"; };
+		9193576B1D3775BF00CE2347 /* LZLogisticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZLogisticCell.h; sourceTree = "<group>"; };
+		9193576C1D3775BF00CE2347 /* LZLogisticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZLogisticCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		919357061D37737D00CE2347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919357221D37737D00CE2347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9193572D1D37737D00CE2347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		919357001D37737D00CE2347 = {
+			isa = PBXGroup;
+			children = (
+				9193570B1D37737D00CE2347 /* LZLogisticsView */,
+				919357281D37737D00CE2347 /* LZLogisticsViewTests */,
+				919357331D37737D00CE2347 /* LZLogisticsViewUITests */,
+				9193570A1D37737D00CE2347 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9193570A1D37737D00CE2347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				919357091D37737D00CE2347 /* LZLogisticsView.app */,
+				919357251D37737D00CE2347 /* LZLogisticsViewTests.xctest */,
+				919357301D37737D00CE2347 /* LZLogisticsViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9193570B1D37737D00CE2347 /* LZLogisticsView */ = {
+			isa = PBXGroup;
+			children = (
+				919357461D37746C00CE2347 /* Masonry */,
+				919357421D37739F00CE2347 /* LZLogisticsView */,
+				9193570F1D37737D00CE2347 /* AppDelegate.h */,
+				919357101D37737D00CE2347 /* AppDelegate.m */,
+				919357121D37737D00CE2347 /* ViewController.h */,
+				919357131D37737D00CE2347 /* ViewController.m */,
+				919357151D37737D00CE2347 /* Main.storyboard */,
+				9193571B1D37737D00CE2347 /* Assets.xcassets */,
+				9193571D1D37737D00CE2347 /* LaunchScreen.storyboard */,
+				919357201D37737D00CE2347 /* Info.plist */,
+				919357181D37737D00CE2347 /* LZLogisticsView.xcdatamodeld */,
+				9193570C1D37737D00CE2347 /* Supporting Files */,
+			);
+			path = LZLogisticsView;
+			sourceTree = "<group>";
+		};
+		9193570C1D37737D00CE2347 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9193570D1D37737D00CE2347 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		919357281D37737D00CE2347 /* LZLogisticsViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				919357291D37737D00CE2347 /* LZLogisticsViewTests.m */,
+				9193572B1D37737D00CE2347 /* Info.plist */,
+			);
+			path = LZLogisticsViewTests;
+			sourceTree = "<group>";
+		};
+		919357331D37737D00CE2347 /* LZLogisticsViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				919357341D37737D00CE2347 /* LZLogisticsViewUITests.m */,
+				919357361D37737D00CE2347 /* Info.plist */,
+			);
+			path = LZLogisticsViewUITests;
+			sourceTree = "<group>";
+		};
+		919357421D37739F00CE2347 /* LZLogisticsView */ = {
+			isa = PBXGroup;
+			children = (
+				9193576A1D37748700CE2347 /* LZConfigFile.h */,
+				919357431D3773C500CE2347 /* LZLogisticsView.h */,
+				919357441D3773C500CE2347 /* LZLogisticsView.m */,
+				9193576B1D3775BF00CE2347 /* LZLogisticCell.h */,
+				9193576C1D3775BF00CE2347 /* LZLogisticCell.m */,
+				914C9EA91D388F1C00F5CFF2 /* LZLogisticModel.h */,
+				914C9EAA1D388F1C00F5CFF2 /* LZLogisticModel.m */,
+			);
+			path = LZLogisticsView;
+			sourceTree = "<group>";
+		};
+		919357461D37746C00CE2347 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				919357471D37746C00CE2347 /* MASCompositeConstraint.h */,
+				919357481D37746C00CE2347 /* MASCompositeConstraint.m */,
+				919357491D37746C00CE2347 /* MASConstraint+Private.h */,
+				9193574A1D37746C00CE2347 /* MASConstraint.h */,
+				9193574B1D37746C00CE2347 /* MASConstraint.m */,
+				9193574C1D37746C00CE2347 /* MASConstraintMaker.h */,
+				9193574D1D37746C00CE2347 /* MASConstraintMaker.m */,
+				9193574E1D37746C00CE2347 /* MASLayoutConstraint.h */,
+				9193574F1D37746C00CE2347 /* MASLayoutConstraint.m */,
+				919357501D37746C00CE2347 /* Masonry.h */,
+				919357511D37746C00CE2347 /* MASUtilities.h */,
+				919357521D37746C00CE2347 /* MASViewAttribute.h */,
+				919357531D37746C00CE2347 /* MASViewAttribute.m */,
+				919357541D37746C00CE2347 /* MASViewConstraint.h */,
+				919357551D37746C00CE2347 /* MASViewConstraint.m */,
+				919357561D37746C00CE2347 /* NSArray+MASAdditions.h */,
+				919357571D37746C00CE2347 /* NSArray+MASAdditions.m */,
+				919357581D37746C00CE2347 /* NSArray+MASShorthandAdditions.h */,
+				919357591D37746C00CE2347 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				9193575A1D37746C00CE2347 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				9193575B1D37746C00CE2347 /* View+MASAdditions.h */,
+				9193575C1D37746C00CE2347 /* View+MASAdditions.m */,
+				9193575D1D37746C00CE2347 /* View+MASShorthandAdditions.h */,
+				9193575E1D37746C00CE2347 /* ViewController+MASAdditions.h */,
+				9193575F1D37746C00CE2347 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		919357081D37737D00CE2347 /* LZLogisticsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919357391D37737D00CE2347 /* Build configuration list for PBXNativeTarget "LZLogisticsView" */;
+			buildPhases = (
+				919357051D37737D00CE2347 /* Sources */,
+				919357061D37737D00CE2347 /* Frameworks */,
+				919357071D37737D00CE2347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZLogisticsView;
+			productName = LZLogisticsView;
+			productReference = 919357091D37737D00CE2347 /* LZLogisticsView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		919357241D37737D00CE2347 /* LZLogisticsViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9193573C1D37737D00CE2347 /* Build configuration list for PBXNativeTarget "LZLogisticsViewTests" */;
+			buildPhases = (
+				919357211D37737D00CE2347 /* Sources */,
+				919357221D37737D00CE2347 /* Frameworks */,
+				919357231D37737D00CE2347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919357271D37737D00CE2347 /* PBXTargetDependency */,
+			);
+			name = LZLogisticsViewTests;
+			productName = LZLogisticsViewTests;
+			productReference = 919357251D37737D00CE2347 /* LZLogisticsViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9193572F1D37737D00CE2347 /* LZLogisticsViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9193573F1D37737D00CE2347 /* Build configuration list for PBXNativeTarget "LZLogisticsViewUITests" */;
+			buildPhases = (
+				9193572C1D37737D00CE2347 /* Sources */,
+				9193572D1D37737D00CE2347 /* Frameworks */,
+				9193572E1D37737D00CE2347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919357321D37737D00CE2347 /* PBXTargetDependency */,
+			);
+			name = LZLogisticsViewUITests;
+			productName = LZLogisticsViewUITests;
+			productReference = 919357301D37737D00CE2347 /* LZLogisticsViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		919357011D37737D00CE2347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Artup;
+				TargetAttributes = {
+					919357081D37737D00CE2347 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					919357241D37737D00CE2347 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 919357081D37737D00CE2347;
+					};
+					9193572F1D37737D00CE2347 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 919357081D37737D00CE2347;
+					};
+				};
+			};
+			buildConfigurationList = 919357041D37737D00CE2347 /* Build configuration list for PBXProject "LZLogisticsView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 919357001D37737D00CE2347;
+			productRefGroup = 9193570A1D37737D00CE2347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				919357081D37737D00CE2347 /* LZLogisticsView */,
+				919357241D37737D00CE2347 /* LZLogisticsViewTests */,
+				9193572F1D37737D00CE2347 /* LZLogisticsViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		919357071D37737D00CE2347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9193571F1D37737D00CE2347 /* LaunchScreen.storyboard in Resources */,
+				9193571C1D37737D00CE2347 /* Assets.xcassets in Resources */,
+				919357171D37737D00CE2347 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919357231D37737D00CE2347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9193572E1D37737D00CE2347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		919357051D37737D00CE2347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919357671D37746C00CE2347 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				919357141D37737D00CE2347 /* ViewController.m in Sources */,
+				919357651D37746C00CE2347 /* MASViewConstraint.m in Sources */,
+				919357111D37737D00CE2347 /* AppDelegate.m in Sources */,
+				9193571A1D37737D00CE2347 /* LZLogisticsView.xcdatamodeld in Sources */,
+				919357451D3773C500CE2347 /* LZLogisticsView.m in Sources */,
+				919357681D37746C00CE2347 /* View+MASAdditions.m in Sources */,
+				919357601D37746C00CE2347 /* MASCompositeConstraint.m in Sources */,
+				919357641D37746C00CE2347 /* MASViewAttribute.m in Sources */,
+				919357621D37746C00CE2347 /* MASConstraintMaker.m in Sources */,
+				919357661D37746C00CE2347 /* NSArray+MASAdditions.m in Sources */,
+				919357691D37746C00CE2347 /* ViewController+MASAdditions.m in Sources */,
+				919357611D37746C00CE2347 /* MASConstraint.m in Sources */,
+				914C9EAB1D388F1C00F5CFF2 /* LZLogisticModel.m in Sources */,
+				919357631D37746C00CE2347 /* MASLayoutConstraint.m in Sources */,
+				9193570E1D37737D00CE2347 /* main.m in Sources */,
+				9193576D1D3775BF00CE2347 /* LZLogisticCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919357211D37737D00CE2347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9193572A1D37737D00CE2347 /* LZLogisticsViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9193572C1D37737D00CE2347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919357351D37737D00CE2347 /* LZLogisticsViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		919357271D37737D00CE2347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 919357081D37737D00CE2347 /* LZLogisticsView */;
+			targetProxy = 919357261D37737D00CE2347 /* PBXContainerItemProxy */;
+		};
+		919357321D37737D00CE2347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 919357081D37737D00CE2347 /* LZLogisticsView */;
+			targetProxy = 919357311D37737D00CE2347 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		919357151D37737D00CE2347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				919357161D37737D00CE2347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9193571D1D37737D00CE2347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9193571E1D37737D00CE2347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		919357371D37737D00CE2347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		919357381D37737D00CE2347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9193573A1D37737D00CE2347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZLogisticsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZLogisticsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9193573B1D37737D00CE2347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZLogisticsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZLogisticsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9193573D1D37737D00CE2347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZLogisticsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZLogisticsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZLogisticsView.app/LZLogisticsView";
+			};
+			name = Debug;
+		};
+		9193573E1D37737D00CE2347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZLogisticsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZLogisticsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZLogisticsView.app/LZLogisticsView";
+			};
+			name = Release;
+		};
+		919357401D37737D00CE2347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZLogisticsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZLogisticsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZLogisticsView;
+			};
+			name = Debug;
+		};
+		919357411D37737D00CE2347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZLogisticsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZLogisticsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZLogisticsView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		919357041D37737D00CE2347 /* Build configuration list for PBXProject "LZLogisticsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919357371D37737D00CE2347 /* Debug */,
+				919357381D37737D00CE2347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919357391D37737D00CE2347 /* Build configuration list for PBXNativeTarget "LZLogisticsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9193573A1D37737D00CE2347 /* Debug */,
+				9193573B1D37737D00CE2347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9193573C1D37737D00CE2347 /* Build configuration list for PBXNativeTarget "LZLogisticsViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9193573D1D37737D00CE2347 /* Debug */,
+				9193573E1D37737D00CE2347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9193573F1D37737D00CE2347 /* Build configuration list for PBXNativeTarget "LZLogisticsViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919357401D37737D00CE2347 /* Debug */,
+				919357411D37737D00CE2347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		919357181D37737D00CE2347 /* LZLogisticsView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				919357191D37737D00CE2347 /* LZLogisticsView.xcdatamodel */,
+			);
+			currentVersion = 919357191D37737D00CE2347 /* LZLogisticsView.xcdatamodel */;
+			path = LZLogisticsView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 919357011D37737D00CE2347 /* Project object */;
+}
