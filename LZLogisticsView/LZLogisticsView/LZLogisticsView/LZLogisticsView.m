@@ -9,6 +9,7 @@
 #import "LZLogisticsView.h"
 #import "LZConfigFile.h"
 #import "LZLogisticCell.h"
+#import "LZTableHeaderView.h"
 
 @interface LZLogisticsView () <UITableViewDelegate,UITableViewDataSource>
 
@@ -42,7 +43,7 @@
     if (self) {
         
         [self.dataArray addObjectsFromArray:array];
-        [self setupUI];
+//        [self setupUI];
     }
     
     return self;
@@ -50,9 +51,8 @@
 
 - (void)setDatas:(NSArray *)datas {
     if (_datas == datas) {
-        _datas = datas;
         
-        ;
+        _datas = datas;
     }
     
     [self.table reloadData];
@@ -83,6 +83,8 @@
     [table mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(self);
     }];
+    
+    [table registerClass:[LZTableHeaderView class] forHeaderFooterViewReuseIdentifier:@"header"];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -104,6 +106,7 @@
     } else {
         cell.hasUpLine = YES;
         cell.currented = NO;
+//        cell.currentTextColor = nil;
     }
     
     if (indexPath.row == self.dataArray.count - 1) {
@@ -111,8 +114,6 @@
     } else {
         cell.hasDownLine = YES;
     }
-    
-//    tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
     LZLogisticModel *model = [self.dataArray objectAtIndex:indexPath.row];
     
@@ -127,6 +128,27 @@
     return model.height;
 }
 
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    
+    LZTableHeaderView *header =[tableView dequeueReusableHeaderFooterViewWithIdentifier:@"header"];
+    
+    
+    header.number = @"12345554t636647";
+    header.company = @"顺丰速运";
+    header.phone = @"10086";
+    
+    return header;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    
+    return 1;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    
+    return 100;
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

@@ -39,13 +39,12 @@
 - (void)loadData {
     for (int i = 0; i < 20; i++) {
         LZLogisticModel *model = [[LZLogisticModel alloc]init];
-        NSString *str = @"北京顺义顺丰转运中心";
-        NSString *new = nil;
+        
         NSArray *arr = @[@"北京顺义顺丰转运中心北京顺义顺丰转运中心",@"北京顺义顺丰转运中心",@"北京顺义顺丰转运中心北京顺义顺丰转运中心北京顺义顺丰转运中心",@"北京顺义顺丰转运中心北京顺义顺丰转运中心北京顺义顺丰转运中心北京顺义顺丰转运中心北京顺义顺丰转运中心北京顺义顺丰转运中心",@"北京顺义顺丰转运中心北京顺义顺丰转运中心北京顺义顺丰转运中心北京顺义顺丰转运中心北京顺义顺丰转运中心北京顺义顺丰转运中心北京顺义顺丰转运中心北京顺义顺丰转运中心北京顺义顺丰转运中心"];
         int num = arc4random() % arr.count;
         
         model.dsc = [arr objectAtIndex:num];
-//        model.dsc = str;
+
         model.date = @"2016-07-15";
         [self.dataArray addObject:model];
     }

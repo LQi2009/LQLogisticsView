@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		914C9EAB1D388F1C00F5CFF2 /* LZLogisticModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 914C9EAA1D388F1C00F5CFF2 /* LZLogisticModel.m */; };
+		914C9EAE1D38C79800F5CFF2 /* LZTableCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 914C9EAD1D38C79800F5CFF2 /* LZTableCellContentView.m */; };
+		914C9EB31D38D63800F5CFF2 /* LZTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 914C9EB21D38D63800F5CFF2 /* LZTableHeaderView.m */; };
 		9193570E1D37737D00CE2347 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193570D1D37737D00CE2347 /* main.m */; };
 		919357111D37737D00CE2347 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 919357101D37737D00CE2347 /* AppDelegate.m */; };
 		919357141D37737D00CE2347 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919357131D37737D00CE2347 /* ViewController.m */; };
@@ -51,6 +53,10 @@
 /* Begin PBXFileReference section */
 		914C9EA91D388F1C00F5CFF2 /* LZLogisticModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZLogisticModel.h; sourceTree = "<group>"; };
 		914C9EAA1D388F1C00F5CFF2 /* LZLogisticModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZLogisticModel.m; sourceTree = "<group>"; };
+		914C9EAC1D38C79800F5CFF2 /* LZTableCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTableCellContentView.h; sourceTree = "<group>"; };
+		914C9EAD1D38C79800F5CFF2 /* LZTableCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTableCellContentView.m; sourceTree = "<group>"; };
+		914C9EB11D38D63800F5CFF2 /* LZTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTableHeaderView.h; sourceTree = "<group>"; };
+		914C9EB21D38D63800F5CFF2 /* LZTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTableHeaderView.m; sourceTree = "<group>"; };
 		919357091D37737D00CE2347 /* LZLogisticsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZLogisticsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9193570D1D37737D00CE2347 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9193570F1D37737D00CE2347 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +131,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		914C9EAF1D38CF0600F5CFF2 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				9193576B1D3775BF00CE2347 /* LZLogisticCell.h */,
+				9193576C1D3775BF00CE2347 /* LZLogisticCell.m */,
+				914C9EAC1D38C79800F5CFF2 /* LZTableCellContentView.h */,
+				914C9EAD1D38C79800F5CFF2 /* LZTableCellContentView.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		914C9EB01D38D5D800F5CFF2 /* headerView */ = {
+			isa = PBXGroup;
+			children = (
+				914C9EB11D38D63800F5CFF2 /* LZTableHeaderView.h */,
+				914C9EB21D38D63800F5CFF2 /* LZTableHeaderView.m */,
+			);
+			name = headerView;
+			sourceTree = "<group>";
+		};
 		919357001D37737D00CE2347 = {
 			isa = PBXGroup;
 			children = (
@@ -193,11 +219,11 @@
 		919357421D37739F00CE2347 /* LZLogisticsView */ = {
 			isa = PBXGroup;
 			children = (
+				914C9EB01D38D5D800F5CFF2 /* headerView */,
+				914C9EAF1D38CF0600F5CFF2 /* cell */,
 				9193576A1D37748700CE2347 /* LZConfigFile.h */,
 				919357431D3773C500CE2347 /* LZLogisticsView.h */,
 				919357441D3773C500CE2347 /* LZLogisticsView.m */,
-				9193576B1D3775BF00CE2347 /* LZLogisticCell.h */,
-				9193576C1D3775BF00CE2347 /* LZLogisticCell.m */,
 				914C9EA91D388F1C00F5CFF2 /* LZLogisticModel.h */,
 				914C9EAA1D388F1C00F5CFF2 /* LZLogisticModel.m */,
 			);
@@ -371,6 +397,7 @@
 				919357651D37746C00CE2347 /* MASViewConstraint.m in Sources */,
 				919357111D37737D00CE2347 /* AppDelegate.m in Sources */,
 				9193571A1D37737D00CE2347 /* LZLogisticsView.xcdatamodeld in Sources */,
+				914C9EAE1D38C79800F5CFF2 /* LZTableCellContentView.m in Sources */,
 				919357451D3773C500CE2347 /* LZLogisticsView.m in Sources */,
 				919357681D37746C00CE2347 /* View+MASAdditions.m in Sources */,
 				919357601D37746C00CE2347 /* MASCompositeConstraint.m in Sources */,
@@ -380,6 +407,7 @@
 				919357691D37746C00CE2347 /* ViewController+MASAdditions.m in Sources */,
 				919357611D37746C00CE2347 /* MASConstraint.m in Sources */,
 				914C9EAB1D388F1C00F5CFF2 /* LZLogisticModel.m in Sources */,
+				914C9EB31D38D63800F5CFF2 /* LZTableHeaderView.m in Sources */,
 				919357631D37746C00CE2347 /* MASLayoutConstraint.m in Sources */,
 				9193570E1D37737D00CE2347 /* main.m in Sources */,
 				9193576D1D3775BF00CE2347 /* LZLogisticCell.m in Sources */,

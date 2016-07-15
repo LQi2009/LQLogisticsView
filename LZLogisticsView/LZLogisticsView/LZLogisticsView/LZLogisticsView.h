@@ -11,6 +11,7 @@
 @interface LZLogisticsView : UIView
 
 @property (strong, nonatomic)NSArray *datas;
+
 - (instancetype)initWithDatas:(NSArray*)array;
 - (void)reloadDataWithDatas:(NSArray *)array;
 @end
